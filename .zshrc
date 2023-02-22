@@ -7,4 +7,5 @@ source .ali
 
 PS1='zsh ~ '
 
+export TERM='xterm-256color'
 

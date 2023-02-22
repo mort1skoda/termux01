@@ -5,7 +5,7 @@ alias l='ls -la --color'
 alias cs='clear'
 alias ..='cd ..'
 alias ...='cd ...'
-alias c='cat '
+alias c='bat '
 
 # sourcing
 alias sa='echo && source .ali'
@@ -33,6 +33,11 @@ alias gcgu='git config --global user.email "mort1skoda@gmail.com" && git config 
 
 alias gp='git push'
 
+# update / install {{{
+alias u='apt update && apt upgrade && apt autoremove'
+alias i='apt install '
+# }}}
 
+# quit
 alias q='exit'
 
