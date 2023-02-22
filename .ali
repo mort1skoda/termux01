@@ -1,27 +1,32 @@
 echo ".ali"
 
-# basic 
-alias l='ls -la --color'
+# basic {{{
+alias l='ls -la --color --group-directories-first'
+alias la='ls -a --color --group-directories-first'
 alias cs='clear'
 alias ..='cd ..'
 alias ...='cd ...'
 alias c='bat '
+# }}}
 
-# sourcing
+# sourcing{{{
 alias sa='echo && source .ali'
 alias sz='echo && source .zshrc'
+# }}}
 
-# edit configs
+# edit configs{{{
 alias ea='echo && vim ~/.ali && source .ali'
 alias ez='echo && vim ~/.zshrc && source .zshrc'
 alias ev='vim .vimrc'
+# }}}
 
-# open progs
+# open progs{{{
 alias v='vim'
 alias vf='vifm'
 alias lf='lf'
+# }}}
 
-# git
+# git{{{
 alias gs='git status'
 alias gaa='git add --all && git status --short'
 alias egi='vim .gitignore'
@@ -32,12 +37,14 @@ alias gc='source .ali && git commit -m "$DATE"'
 alias gcgu='git config --global user.email "mort1skoda@gmail.com" && git config --global user.name "mort1skoda" ' 
 
 alias gp='git push'
+# }}}
 
 # update / install {{{
 alias u='apt update && apt upgrade && apt autoremove'
 alias i='apt install '
 # }}}
 
-# quit
+# quit{{{
 alias q='exit'
+# }}}
 
