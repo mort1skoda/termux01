@@ -31,5 +31,8 @@ alias gc='source .ali && git commit -m "$DATE"'
 
 alias gcgu='git config --global user.email "mort1skoda@gmail.com" && git config --global user.name "mort1skoda" ' 
 
+alias gp='git push'
+
+
 alias q='exit'
 
