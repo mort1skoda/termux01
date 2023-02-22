@@ -3,4 +3,5 @@
 .config/gh/
 .viminfo
 .oh-my-zsh/
+.zsh_history
 
