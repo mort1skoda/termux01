@@ -1,6 +1,7 @@
 
 
 " fold {{{
+" zf create fold from viusal selected lines
 " za toggle fold
 " zR open all folds
 " zM close all folds
@@ -55,10 +56,10 @@ nnoremap u u:echo'u = undo'<cr>
 nnoremap <esc> :echo'esc'<cr>
 inoremap <esc> <esc>:echo'esc'<cr>
 
-nnoremap <c-s> :w<cr>:echo'c-s = save'<cr>
+nnoremap <c-s> :w<cr>:echo'c-s = save'<cr>"{{{
 inoremap <c-s> <esc>:w<cr>:echo'c-s = save'<cr>
 
-nnoremap <leader>ss :w<cr>:source ~/.vimrc<cr>:echo',ss = save source'<cr>
+nnoremap <leader>ss :w<cr>:source ~/.vimrc<cr>:echo',ss = save source'<cr>"}}}
 
 nnoremap q :q<cr>
 nnoremap <c-q> :wq<cr>
