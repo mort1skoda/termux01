@@ -1,0 +1,35 @@
+echo ".ali"
+
+# basic 
+alias l='ls -la --color'
+alias cs='clear'
+alias ..='cd ..'
+alias ...='cd ...'
+alias c='cat '
+
+# sourcing
+alias sa='echo && source .ali'
+alias sz='echo && source .zshrc'
+
+# edit configs
+alias ea='echo && vim .ali && source .ali'
+alias ez='echo && vim .zshrc && source .zshrc'
+alias ev='vim .vimrc'
+
+# open progs
+alias v='vim'
+alias vf='vifm'
+alias lf='lf'
+
+# git
+alias gs='git status'
+alias gaa='git add --all && git status --short'
+alias egi='vim .gitignore'
+
+DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
+alias gc='source .ali && git commit -m "$DATE"'
+
+alias gcgu='git config --global user.email "mort1skoda@gmail.com" && git config --global user.name "mort1skoda" ' 
+
+alias q='exit'
+
