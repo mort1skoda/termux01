@@ -67,3 +67,9 @@ inoremap <c-q> <esc>:wq<cr>
 " }}}
 
 
+packadd! dracula"{{{
+syntax enable
+colorscheme dracula
+"}}}
+
+

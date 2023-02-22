@@ -4,4 +4,7 @@
 .viminfo
 .oh-my-zsh/
 .zsh_history
+zsh/
+.vim/pack/
+
 
