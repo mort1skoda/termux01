@@ -2,4 +2,5 @@
 .ssh
 .config/gh/
 .viminfo
+.oh-my-zsh/
 

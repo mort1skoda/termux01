@@ -12,8 +12,8 @@ alias sa='echo && source .ali'
 alias sz='echo && source .zshrc'
 
 # edit configs
-alias ea='echo && vim .ali && source .ali'
-alias ez='echo && vim .zshrc && source .zshrc'
+alias ea='echo && vim ~/.ali && source .ali'
+alias ez='echo && vim ~/.zshrc && source .zshrc'
 alias ev='vim .vimrc'
 
 # open progs
