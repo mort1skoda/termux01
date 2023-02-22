@@ -1,1 +1,3 @@
 ! mkdir lf
+: so lfrc
+! bat .vimrc

@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 unalias -a
 source .ali
 
+export OPENER='xdg-opener'
+

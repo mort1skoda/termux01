@@ -1,5 +1,7 @@
 :echo 'welcome'
 set hidden
+#set previewer ~/.config/lf/batc.sh
+set previewer /usr/bin/bat
 
 # interpreter for shell commands
 set shell sh
